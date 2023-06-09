@@ -1,0 +1,63 @@
+syntax = "proto3";
+
+package mytest;
+
+//定义此选项来生成service类  默认不生成
+option cc_generic_services = true;
+
+message ResultCode
+{
+    int32 errnum = 1;
+    bytes errstr = 2;
+    bool success =3;
+}
+
+//login request message
+message LoginRequest
+{
+    bytes name = 1;   //字符串一般用bytes也可以
+    bytes pswd = 2;
+}
+
+//login response message
+message LoginResponse
+{
+    ResultCode res = 1;
+}
+
+
+message GetFriendListRequest
+{
+    uint32 userid = 1;
+    map<int32,string> test = 3;  //这个用法比较复杂，专属于protobuf，但在语言体现上它和所了解的map没有什么区别
+}
+
+message User
+{
+    bytes name = 1;
+    uint32 age = 2;
+    enum Sex 
+    {
+        MAN = 0;
+        WOMAN = 1;
+    }
+    Sex sex = 3;
+}
+
+message GetFriendListResPonse
+{
+    ResultCode res = 1;
+    repeated User friend_list = 2;
+}
+
+//message可当作参数对待，但无法区分函数主体
+//专属的服务类型  用于定义方法  使用service必须在开始使用option字段
+service UserServiceRpc
+{
+    rpc Login(LoginRequest) returns(LoginResponse);
+    rpc GetFriendList(GetFriendListRequest) returns(GetFriendListResPonse);
+
+}
+
+
+

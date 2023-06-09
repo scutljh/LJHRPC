@@ -1,0 +1,15 @@
+[INFO][2023:6:9]hello log!
+[INFO][2023:6:9]hello log!
+[INFO][2023:6:9]zookeeper init success !
+[INFO][2023:6:9]znode create success ! path:/friendServiceRpc
+
+[INFO][2023:6:9]znode create success ! path:/friendServiceRpc/GetFriendLists
+
+[INFO][2023:6:9]RpcProvider start service at ip:441311640 port:6750
+
+[INFO][2023:6:9]hello log!
+[INFO][2023:6:9]zookeeper init success !
+[INFO][2023:6:9]znode create success ! path:/friendServiceRpc/GetFriendLists
+
+[INFO][2023:6:9]RpcProvider start service at ip:1910367192 port:6750
+

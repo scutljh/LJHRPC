@@ -1,0 +1,49 @@
+[INFO] 2023:5:27hello log!
+[INFO] 2023:5:27RpcProvider start service at ip:492245272 port:6750
+
+[INFO][2023:5:27]hello log!
+[INFO][2023:5:27]RpcProvider start service at ip:1433714712 port:6750
+
+[INFO][2023:5:27]hello log!
+[INFO][2023:5:27]zookeeper init success !
+[INFO][2023:5:27]znode create success ! path:/friendSerciceRpc
+
+[INFO][2023:5:27]znode create success ! path:/friendSerciceRpcGetFriendLists
+
+[INFO][2023:5:27]RpcProvider start service at ip:1973900216 port:6750
+
+[INFO][2023:5:27]hello log!
+[INFO][2023:5:27]zookeeper init success !
+[INFO][2023:5:27]znode create success ! path:/friendSerciceRpc/GetFriendLists
+
+[INFO][2023:5:27]RpcProvider start service at ip:-1327151816 port:6750
+
+[INFO][2023:5:27]hello log!
+[INFO][2023:5:27]zookeeper init success !
+[INFO][2023:5:27]znode create success ! path:/friendServiceRpc
+
+[INFO][2023:5:27]znode create success ! path:/friendServiceRpc/GetFriendLists
+
+[INFO][2023:5:27]RpcProvider start service at ip:-1820541544 port:6750
+
+[INFO][2023:5:27]hello log!
+[INFO][2023:5:27]zookeeper init success !
+[INFO][2023:5:27]RpcProvider start service at ip:391080088 port:6750
+
+[INFO][2023:5:27]hello log!
+[INFO][2023:5:27]zookeeper init success !
+[INFO][2023:5:27]znode create success ! path:/friendServiceRpc/GetFriendLists
+
+[INFO][2023:5:27]RpcProvider start service at ip:-2126100392 port:6750
+
+[INFO][2023:5:27]hello log!
+[INFO][2023:5:27]zookeeper init success !
+[INFO][2023:5:27]RpcProvider start service at ip:-975660920 port:6750
+
+[INFO][2023:5:27]hello log!
+[INFO][2023:5:27]hello log!
+[INFO][2023:5:27]zookeeper init success !
+[INFO][2023:5:27]znode create success ! path:/friendServiceRpc/GetFriendLists
+
+[INFO][2023:5:27]RpcProvider start service at ip:-1523658488 port:6750
+

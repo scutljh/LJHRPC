@@ -1,0 +1,24 @@
+syntax = "proto3";
+
+package frd;
+
+option cc_generic_services = true;
+
+
+message GetFriendListsRequest
+{
+    uint32 userId = 1;
+}
+
+message GetFriendListsResponse
+{
+    bool success = 1;
+    repeated bytes friends = 2;
+}
+
+
+service friendServiceRpc
+{
+    rpc GetFriendLists(GetFriendListsRequest) returns(GetFriendListsResponse);
+}
+
